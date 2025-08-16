@@ -26,14 +26,18 @@ body {
   margin: 0;
 }
 .container {
-  max-width: 1128px;
+  max-width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
 }
-header .container {
+
+.header-section .container {
   display: flex;
   justify-content: space-between;
-  padding: 16px 156px;
+}
+.header-section li,
+a {
+  padding: 24px 0;
 }
 
 a {
