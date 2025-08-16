@@ -126,6 +126,9 @@ a {
   margin-bottom: 8px;
   text-align: center;
 }
+.benefits-section .header-three {
+  margin-bottom: 8px;
+}
 
 .header-three {
   font-weight: 500;
@@ -188,6 +191,7 @@ a {
 }
 
 .logo {
+  padding: 24px 0;
   margin-right: 76px;
   display: flex;
   align-items: center;
@@ -249,6 +253,7 @@ a {
 }
 .team-section .header-three {
   margin-bottom: 8px;
+  text-align: center;
 }
 .team-section .text-p {
   text-align: center;
