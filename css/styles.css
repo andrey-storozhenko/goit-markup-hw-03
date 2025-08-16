@@ -37,10 +37,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.header-section li {
-  padding: 24px 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -63,23 +59,24 @@ a {
   padding: 24px 0;
 }
 .nav-list {
-  padding-left: 76px;
-  width: 261px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
 }
-.nav-elem {
+.nav-li {
   width: calc((100% - 80px) / 3);
+}
+.nav-elem {
   font-weight: 500;
   color: #2e2f42;
-}
-.menu-link {
   padding: 24px 0;
 }
-
+.contact-li,
+.nav-li {
+  padding: 24px 0;
+}
 .nav-elem:hover {
   color: #404bbf;
 }
