@@ -53,16 +53,14 @@ a {
   gap: 40px;
   width: 261px;
 }
-.nav-section li {
-  width: calc((100% - 80px) / 3);
-}
 
 .contact-list {
   display: flex;
   gap: 40px;
 }
-.contact-list li {
+.contact-elem {
   width: calc((100% - 40px) / 2);
+  padding: 24px 0;
 }
 .nav-list {
   padding-left: 76px;
@@ -74,8 +72,10 @@ a {
   gap: 40px;
 }
 .nav-elem {
+  width: calc((100% - 80px) / 3);
   font-weight: 500;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-elem:hover {
   color: #404bbf;
@@ -191,7 +191,6 @@ a {
 }
 
 .logo {
-  padding: 24px 0;
   margin-right: 76px;
   display: flex;
   align-items: center;
