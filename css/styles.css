@@ -39,20 +39,25 @@ header .container {
 a {
   text-decoration: none;
 }
-header {
-  max-width: 1440px;
-}
+
 .nav-section {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
+  width: 261px;
+}
+.nav-section li {
+  width: calc((100% - 80px) / 3);
 }
 
 .contact-list {
   display: flex;
   gap: 40px;
+}
+.contact-list li {
+  width: calc((100% - 40px) / 2);
 }
 .nav-list {
   padding-left: 76px;
@@ -124,13 +129,13 @@ header {
 }
 .solutions-section {
   background-color: #2e2f42;
-  max-width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .solutions-section .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 472px;
 }
 .button-order {
   display: flex;
@@ -155,17 +160,6 @@ header {
 }
 .button-order:focus {
   background-color: #404bbf;
-}
-
-.benefits-section p {
-  color: #434455;
-}
-.benefits-section {
-  background-color: white;
-}
-
-.team-section {
-  background-color: #f4f4fd;
 }
 
 .footer-section p {
@@ -214,34 +208,32 @@ header {
   overflow: hidden;
 }
 
-.section {
-  padding: 120px;
+.benefits-section p {
+  color: #434455;
+}
+.benefits-section {
+  background-color: white;
+  padding: 120px 0 128px 0px;
 }
 
-.benefits-section {
-  max-width: 1440px;
-}
-.benefits-section .container {
-  padding: 120px 156px;
-}
-.benefits-section .container ul {
+.benefits-section ul {
   display: flex;
   gap: 24px;
 }
 
-.benefits-section .container ul li {
+.benefits-section li {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .team-section {
-  max-width: 1440px;
+  background-color: #f4f4fd;
+  padding: 112px 0 128px 0;
 }
-.team-section .container {
-  padding: 120px 156px;
-}
+
 .team-section ul {
   margin-top: 72px;
   display: flex;
@@ -249,13 +241,12 @@ header {
 }
 
 .employee {
-  width: 264px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 0 0 4px 4px;
-  width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .card-content {
@@ -271,21 +262,18 @@ header {
 
 .portfolio-section {
   background-color: white;
-  max-width: 1440px;
-}
-.portfolio-section .container {
   padding-top: 112px;
   padding-bottom: 120px;
 }
 
-.portfolio-section .container ul {
+.portfolio-section ul {
   margin-top: 72px;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
 }
-.portfolio-section .container ul li {
-  width: 360px;
+.portfolio-section li {
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .port-card-content {
@@ -300,4 +288,15 @@ header {
   border-right: 1px solid #e7e9fc;
   padding: 32px 0px 32px 16px;
   width: 360px;
+}
+
+.footer-section {
+  padding: 100px 0;
+}
+.footer-section .container {
+  width: 264px;
+}
+
+.footer-section .text-p {
+  margin-top: 16px;
 }
